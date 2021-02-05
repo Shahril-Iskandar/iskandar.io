@@ -1,0 +1,201 @@
+body {
+    background: url();
+    background-size: cover;
+    background-position: center;
+    padding: 45px 0 0 0;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: Open Sans,Arial,sans-serif;
+    color: black;
+}
+
+.bg-image {
+  background-image: url("structure2.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(2px);
+  height: 100%;
+  background-position: 50% 15%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-workshop {
+  background-image: url("handstand.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(2px);
+  height: 100%;
+  background-position: 50% 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-contact {
+  background-image: url("contact.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(1px);
+  height: 100%;
+  background-position: 50% 55%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-perks {
+  background-image: url("squat.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(2px);
+  height: 100%;
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.bg-text2 {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+
+.content{
+	padding-top: 25%;
+	text-align: center;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+
+.bg-cover {
+    background-attachment: static;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonial {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.box {
+  width: auto;
+  margin: 50px auto;
+  border-radius: 15px;
+  background: white;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  position: relative;
+}
+
+.sb1:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 15px solid white;
+  border-right: 15px solid transparent;
+  border-top: 15px solid white;
+  border-bottom: 15px solid transparent;
+  right: -16px;
+  top: 0px;
+}
+
+
+.sb2:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 15px solid transparent;
+  border-right: 15px solid white;
+  border-top: 15px solid white;
+  border-bottom: 15px solid transparent;
+  left: -16px;
+  top: 0px;
+}
+
+.sb3:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 15px solid white;
+  border-right: 15px solid transparent;
+  border-top: 15px solid white;
+  border-bottom: 15px solid transparent;
+  right: -16px;
+  top: 0px;
+}
+
+
+.sb4:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 15px solid transparent;
+  border-right: 15px solid white;
+  border-top: 15px solid white;
+  border-bottom: 15px solid transparent;
+  left: -16px;
+  top: 0px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.footer img {
+  width: 140px;
+  height: 100px;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+ul li {
+  display: inline;
+}
